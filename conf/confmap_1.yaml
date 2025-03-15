@@ -3,4 +3,8 @@ kind: ConfigMap
 metadata:
   name: task08-1
 data:
-  key: value
+  HTTP_PORT: '8080'
+  index.html: |
+    <html>
+    <h1>Welcome to My Page</h1>
+    </html

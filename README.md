@@ -26,22 +26,19 @@
 ### Задание 1. Создать Deployment приложения и решить возникшую проблему с помощью ConfigMap. Добавить веб-страницу
 
 1. Создать Deployment приложения, состоящего из контейнеров nginx и multitool.
-2. Решить возникшую проблему с помощью ConfigMap.
+2. Решить возникшую проблему с помощью ConfigMap. 
 3. Продемонстрировать, что pod стартовал и оба конейнера работают.
 4. Сделать простую веб-страницу и подключить её к Nginx с помощью ConfigMap. Подключить Service и показать вывод curl или в браузере.
 5. Предоставить манифесты, а также скриншоты или вывод необходимых команд.
 
 ## Решение
-> по пунктам 1-3
-![localImage](./screen_VII.07_1.png)        
-> по пунктам 4-5
-![localImage](./screen_VII.07_2.png) 
-
+> по пунктам 1-5
+![localImage](./screen_VII.08_1.png)        
+    
 ## Ссылки на файлы:
->[PV](./conf/pv_1.yaml);       
->[PV Claim](./conf/pv-claim_1.yaml);      
+>[ConfigMaps](./conf/pv_1.yaml);       
 >[Deployment](./conf/depl1.yaml);     
->[Pod check data on PV](./conf/check_pv.yaml).         
+>[Service](./conf/svc_depl1.yaml).         
 ![localImage](./Yes.png)
 
 
