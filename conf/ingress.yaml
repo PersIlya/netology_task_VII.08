@@ -1,0 +1,21 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: task08-ing
+spec:
+  rules:
+  - host: task08.info
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: task08-svc
+            port:
+              number: 80
+  tls:
+    - hosts:
+      - task08.info
+      secretName: task08-secret
+

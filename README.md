@@ -36,9 +36,9 @@
 ![localImage](./screen_VII.08_1.png)        
     
 ## Ссылки на файлы:
->[ConfigMaps](./conf/pv_1.yaml);       
+>[ConfigMaps](./conf/configmap.yaml);       
 >[Deployment](./conf/depl1.yaml);     
->[Service](./conf/svc_depl1.yaml).         
+>[Service](./conf/svc_depl.yaml).         
 ![localImage](./Yes.png)
 
 
@@ -50,17 +50,16 @@
 2. Создать собственную веб-страницу и подключить её как ConfigMap к приложению.
 3. Выпустить самоподписной сертификат SSL. Создать Secret для использования сертификата.
 4. Создать Ingress и необходимый Service, подключить к нему SSL в вид. Продемонстировать доступ к приложению по HTTPS. 
-4. Предоставить манифесты, а также скриншоты или вывод необходимых команд.
+5. Предоставить манифесты, а также скриншоты или вывод необходимых команд.
 
 ## Решение
-> по пунктам 1-3
-![localImage](./screen_VII.07_1.png)        
-> по пунктам 4-5
-![localImage](./screen_VII.07_2.png) 
+> по пунктам 1-5
+![localImage](./screen_VII.08_2.png) 
 
 ## Ссылки на файлы:
->[PV](./conf/pv_1.yaml);       
->[PV Claim](./conf/pv-claim_1.yaml);      
->[Deployment](./conf/depl1.yaml);     
->[Pod check data on PV](./conf/check_pv.yaml).         
+>[ConfigMaps](./conf/configmap.yaml);       
+>[Deployment](./conf/depl2.yaml);     
+>[Service](./conf/svc_depl.yaml);  
+>[Secret](./conf/secret.yaml);         
+>[Ingress](./conf/ingress.yaml). 
 ![localImage](./Yes.png)

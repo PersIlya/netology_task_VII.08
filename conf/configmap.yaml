@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: task08-1
+  name: task08-config
 data:
   HTTP_PORT: '8080'
   index.html: |
