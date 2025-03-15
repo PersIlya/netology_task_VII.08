@@ -38,7 +38,8 @@
 ## Ссылки на файлы:
 >[ConfigMaps](./conf/configmap.yaml);       
 >[Deployment](./conf/depl1.yaml);     
->[Service](./conf/svc_depl.yaml).         
+>[Service](./conf/svc_depl.yaml).                  
+
 ![localImage](./Yes.png)
 
 
@@ -61,5 +62,6 @@
 >[Deployment](./conf/depl2.yaml);     
 >[Service](./conf/svc_depl.yaml);  
 >[Secret](./conf/secret.yaml);         
->[Ingress](./conf/ingress.yaml). 
+>[Ingress](./conf/ingress.yaml).              
+
 ![localImage](./Yes.png)
